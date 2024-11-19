@@ -28,6 +28,6 @@ function relogio_minimalista()
     os.execute("sleep 1") -- No Windows, pode ser necessário instalar o comando sleep
   end
 end
-end
+
 -- Executar o relógio
 relogio_minimalista()
