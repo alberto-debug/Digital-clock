@@ -1,4 +1,4 @@
--- Função para limpar o terminal
+-- Função para limpar o termina
 function limpar_tela()
 	if os.getenv("OS") == "Windows_NT" then
 		os.execute("cls")
